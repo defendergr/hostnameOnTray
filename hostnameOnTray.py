@@ -2,18 +2,18 @@ import socket
 import PySimpleGUIQt as sg
 
 
-#----------- for pyinstaller onefile starts here-----------
+# ----------- for pyinstaller onefile starts here-----------
 import sys
 import os
 
 
 try:
-   wd = sys._MEIPASS
+    wd = sys._MEIPASS
 except AttributeError:
-   wd = os.getcwd()
+    wd = os.getcwd()
 file_path = os.path.join(wd, 'icon.ico')
 
-#----------- for pyinstaller onefile ends here-----------
+# ----------- for pyinstaller onefile ends here-----------
 
 
 def hostnameOnTray():
