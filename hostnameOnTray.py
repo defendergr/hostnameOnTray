@@ -1,5 +1,8 @@
 import socket
 import PySimpleGUIQt as sg
+
+
+#----------- for pyinstaller onefile starts here-----------
 import sys
 import os
 
@@ -9,6 +12,8 @@ try:
 except AttributeError:
    wd = os.getcwd()
 file_path = os.path.join(wd, 'icon.ico')
+
+#----------- for pyinstaller onefile ends here-----------
 
 
 def hostnameOnTray():
