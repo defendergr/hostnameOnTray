@@ -1,0 +1,1 @@
+pyinstaller --clean --onefile --windowed --icon=icon.ico --add-data "icon.ico;." hostnameOnTray.py
